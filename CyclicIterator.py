@@ -1,4 +1,5 @@
 class CyclicIterator:
+
     def __init__(self, iter_object):
         self.index = -1
         self.iter_object = list(iter_object)
